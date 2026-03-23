@@ -1,0 +1,25 @@
+{
+    "name": "idci/dummy-bundle",
+    "type": "symfony-bundle",
+    "description": "IDCI Bundle that inject extra data to debug toolbar",
+    "license": "CECILL-C",
+    "keywords": ["tutorial", "Symfony", "Bundle"],
+    "authors": [
+        {
+            "name": "Maëva GRONDIN",
+            "email": "maeva.grondin@idci-consulting.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/framework-bundle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IDCI\\Bundle\\DummyBundle\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
