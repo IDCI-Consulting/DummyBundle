@@ -1,6 +1,6 @@
 <?php
 
-namespace IDCI\Bundle\HelloWorldBundle;
+namespace IDCI\Bundle\DummyBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
