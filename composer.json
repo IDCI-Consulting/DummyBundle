@@ -10,9 +10,16 @@
             "email": "maeva.grondin@idci-consulting.fr"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/IDCI-Consulting/DummyBundle.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "symfony/framework-bundle": "^6.0"
+        "symfony/framework-bundle": "^6.0",
+        "idci/hello-world-bundle": "dev-main"
     },
     "autoload": {
         "psr-4": {
