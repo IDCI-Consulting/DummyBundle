@@ -11,7 +11,7 @@ class AddExtraDebugDataCompilerPass implements CompilerPassInterface
     public const EXTRA_DATA = [
         [
             'label' => 'Dummy',
-            'value' => 'Ici',
+            'value' => 'v0',
         ],
         [
             'label' => 'Message',
